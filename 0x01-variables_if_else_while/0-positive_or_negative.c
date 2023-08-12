@@ -17,9 +17,9 @@ int main(void)
 	}
 	else if (n > 0)
 	{
-		printf("%d is is positive\n", n);
+		printf("%d is positive\n", n);
 	}
 	else
-		printf("%d is is nagetive\n", n);
+		printf("%d is nagetive\n", n);
 	return (0);
 }
