@@ -11,6 +11,7 @@ for (p = '0' ; p < '9' ; p++)
 for (d = p + 1 ; d <= '9' ; d++)
 {
 for (o = d + 1 ; o <= '9' ; o++)
+{
 if ((p != d) != o)
 {
 putchar(p);
