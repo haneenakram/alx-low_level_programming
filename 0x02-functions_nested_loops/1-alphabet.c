@@ -3,7 +3,7 @@
   *main - main is the entry point
   *Return: return 0 (succsess)
   */
-char  print_alphabet(void)
+int  print_alphabet(void)
 {
 	for (char i = 'a' ; i < 'z' ; i++)
 		printf("%c",i);
