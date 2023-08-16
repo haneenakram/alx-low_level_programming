@@ -6,7 +6,7 @@
 char  print_alphabet(void)
 {
 	for (char i = 'a' ; i < 'z' ; i++)
-		printf("%c");
+		printf("%c",i);
 	printf("\n");
 }
 
