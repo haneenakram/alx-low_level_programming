@@ -10,6 +10,8 @@ if ((c <= 'z' && c >= 'a') || (c <= 'Z' && c >= 'A'))
 {
 return (1);
 }
-else 
+else
+{
 return (0);
+}
 }
