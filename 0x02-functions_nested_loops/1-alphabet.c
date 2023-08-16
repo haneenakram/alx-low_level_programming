@@ -5,7 +5,8 @@
   */
 int  print_alphabet(void)
 {
-	for (char i = 'a' ; i < 'z' ; i++)
+	char i;
+	for (i = 'a' ; i < 'z' ; i++)
 		printf("%c",i);
 	printf("\n");
 	return (0);
