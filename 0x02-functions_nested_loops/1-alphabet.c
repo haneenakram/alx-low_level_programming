@@ -8,6 +8,7 @@ char  print_alphabet(void)
 	for (char i = 'a' ; i < 'z' ; i++)
 		printf("%c",i);
 	printf("\n");
+	return (0);
 }
 
 int main(void)
