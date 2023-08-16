@@ -1,13 +1,11 @@
-#include <stdio.h>
+#inclue "main.h"
 /**
-  *main - main is the entry point
-  *Return: return 0 (succsess)
+  * print_alphabet - utilize on _putchar function to print alphabet from a to z
   */
 int  print_alphabet(void)
 {
-	char i;
-	for (i = 'a' ; i < 'z' ; i++)
-		printf("%c",i);
-	printf("\n");
-	return (0);
+	int i;
+	for (i = 'a' ; i <= 'z' ; i++)
+		_putchar(i);
+	_putchar('\n');
 }
