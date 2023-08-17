@@ -9,7 +9,7 @@ for (h = 0; h <= 9; h++)
 {
 for (m = 0; m <= 9; m++)
 {
-x = m * n;
+x = m * h;
 if (x <= 9)
 _putchar(' ');
 else
