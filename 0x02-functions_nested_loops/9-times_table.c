@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-*jack_bauer - prints every minute of day
+*times_table - prints time table
 */
-void jack_bauer(void)
+void times_table(void)
 {
 int m, h, x;
 for (h = 0; h <= 9; h++)
