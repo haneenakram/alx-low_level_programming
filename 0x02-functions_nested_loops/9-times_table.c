@@ -9,7 +9,7 @@ int m, h, x;
 for (h = 0; h <= 9; h++)
 {
 _putchar('0');
-for (m = 0; m <= 9; m++)
+for (m = 1; m <= 9; m++)
 {
 _putchar(',');
 _putchar(' ');
