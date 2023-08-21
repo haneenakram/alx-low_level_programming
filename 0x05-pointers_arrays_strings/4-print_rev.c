@@ -11,6 +11,8 @@ int i=0;
 while (s[i])
 	i++;
 while (i--)
+{
 	_putchar(s[i]);
+}
 _putchar('\n');
 }
